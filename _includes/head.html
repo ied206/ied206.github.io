@@ -1,9 +1,19 @@
 <head>
   <meta charset="UTF-8">
-  <title>{{ site.title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
+
+  <title>{{ site.title[page.lang] }}</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+  <!-- Cayman -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/cayman.css">
+  <!-- Joveler -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/joveler.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
 </head>

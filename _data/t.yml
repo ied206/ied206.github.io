@@ -1,0 +1,15 @@
+proj:
+  en:
+    batteryline:
+      title:  "BatteryLine"
+      platform: "Windows"
+      desc: "Show system's battey status as line"
+      link: "BatteryLine"
+    notepad-utf8:
+  ko:
+    batteryline:
+      title:  "BatteryLine"
+      platform: "Windows"
+      desc: "노트북의 배터리 잔량을 화면 위에 직선으로 표시합니다."
+      link: "BatteryLine"
+    notepad-utf8:

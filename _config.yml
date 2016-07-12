@@ -1,17 +1,30 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:
+  en: Joveler's Projects
+  ko: 넓적부리의 프로젝트
+tagline:
+  en: ""
+  ko: ""
+index:
+  en: index-en.html
+  ko: index.html
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:
+    en: Joveler
+    ko: 넓적부리
+  url:        https://joveler.kr
 
 # Gems
 gems:
   - jekyll-paginate
+
+# Collections
+collections:
+  - projects
 
 #Others
 markdown: kramdown
