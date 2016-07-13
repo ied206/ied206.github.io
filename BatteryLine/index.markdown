@@ -4,8 +4,6 @@ projname: BatteryLine
 title: <i class="fa fa-fw fa-battery-3"></i> BatteryLine
 tagline: 배터리의 잔량을 화면에 항상 표시해 줍니다.
 github: https://github.com/ied206/BatteryLine
-# zipball: https://github.com/ied206/BatteryLine/zipball/master
-#tarball: https://github.com/ied206/BatteryLine/tarball/master
 ref: batteryline-index
 lang: ko
 ---

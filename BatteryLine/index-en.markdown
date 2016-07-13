@@ -3,8 +3,6 @@ layout: project
 title: <i class="fa fa-fw fa-battery-3"></i> BatteryLine
 tagline: Show battery status always at screen.
 github: https://github.com/ied206/BatteryLine
-# zipball: https://github.com/ied206/BatteryLine/zipball/master
-#tarball: https://github.com/ied206/BatteryLine/tarball/master
 ref: batteryline-index
 lang: en
 ---
