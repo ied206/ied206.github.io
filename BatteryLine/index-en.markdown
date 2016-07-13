@@ -35,7 +35,7 @@ Binary distribution of this project is compiled with TDM-GCC-64, which links Min
 
 ## v1.1 <small>(Build 20160712)</small>
 - [ADD] Support HiDPI (System Aware)
-- [CHANGE] Search algorithm of ini file is improved
+- [BUGFIX] Search algorithm of ini file is improved
 - [ADD] Support 'quiet' argument (-q)
 - [ADD] Support 'help' argument (-h)
 

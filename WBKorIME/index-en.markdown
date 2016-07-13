@@ -75,7 +75,7 @@ Want to ask or suggest somthing? Post to [TheOven official thread](http://theove
 - [ADD] Choose Notepad's default font between D2Coding, Malgun Gothic and GulimChe
 - [ENHANCE] Enhancement in font setting UI and help message
 
-## v16 <small>(2016.03.26 by Lancelot)</small>
+## v16 <small>(2016.03.26, by Lancelot)</small>
 - [BUGFIX] Workaround for WinBuilder's float comparison bug
 
 ## v18 <small>(2016.03.28)</small>
