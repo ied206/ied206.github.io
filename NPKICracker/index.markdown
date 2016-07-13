@@ -28,7 +28,7 @@ Supports Windows, Linux, and macOS.
 Tested on Windows and Linux.  
 
 # <i class="fa fa-fw fa-cloud"></i> 다운로드
-최신버젼은 **v1.0 (20160619)** 입니다.  
+최신버젼은 **v1.1 (20160714)** 입니다.  
 구버젼은 [여기]({{ site.baseurl }}/{{ page.projname }}/release)서 받으실 수 있습니다.
 
 <a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/DriverPicker-v1.0-dist.zip" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Download</a>

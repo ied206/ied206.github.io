@@ -11,8 +11,8 @@ lang: ko
 ---
 
 # <i class="fa fa-fw fa-comment"></i> 소개
-DriverPicker는 [DriverPacks Solution](https://drp.su)에서 특정 윈도우 버젼에 맞는 드라이버만을 추출해주는 도구입니다.
-예를 들어, 7, 8, 8.1, 10 드라이버들이 뒤엉킨 폴더에서 Windows 10 x64를 지원하는 드라이버만을 추출할 수 있습니다.
+DriverPicker는 [DriverPacks Solution](https://drp.su)에서 특정 윈도우 버젼에 맞는 드라이버만을 추출해주는 도구입니다.  
+예를 들어, 7, 8, 8.1, 10 드라이버들이 뒤엉킨 폴더에서 Windows 10 x64를 지원하는 드라이버만을 추출할 수 있습니다.  
 DriverPicker는 DriverPacks Solution 외에도 다른 드라이버 모음집과 함께 사용할 수 있습니다.
 
 ### <i class="fa fa-fw fa-question-circle"></i> DriverPicker를 왜 만들었나요?

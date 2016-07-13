@@ -29,7 +29,7 @@ Tested on Windows and Linux.
 
 
 # <i class="fa fa-fw fa-cloud"></i> Download
-Latest version is **v1.0 (20160619)**.  
+Latest version is **v1.1 (20160714)**.  
 You can get old versoin in [here]({{ site.baseurl }}/{{ page.projname }}/release/index-en.html).
 
 <a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/NPKICracker-v1.0-src.zip" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Download</a>

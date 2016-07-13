@@ -12,7 +12,7 @@ lang: en
 
 # <i class="fa fa-fw fa-comment"></i> About
 DriverPicker pick up only drivers you need from [DriverPacks Solution](https://drp.su).  
-For example, picking up 'Windows 10 x64' drivers from 7, 8, 10, x86, x64 drivers.
+For example, picking up 'Windows 10 x64' drivers from 7, 8, 10, x86, x64 drivers.  
 DriverPicker can also be used with other driver collections.
 
 ### <i class="fa fa-fw fa-question-circle"></i> Why did I write DriverPicker?
