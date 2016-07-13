@@ -1,5 +1,6 @@
 ---
 layout: project
+projname: BatteryLine
 title: <i class="fa fa-fw fa-battery-3"></i> BatteryLine
 tagline: 배터리의 잔량을 화면에 항상 표시해 줍니다.
 github: https://github.com/ied206/BatteryLine
@@ -18,12 +19,12 @@ Windows Vista 이상을 지원합니다.
 
 # <i class="fa fa-fw fa-cloud"></i> 다운로드
 최신버젼은 **v1.1 <small>(Build 20160712)</small>** 입니다.  
-구버젼은 [여기]({{ site.baseurl }}/BatteryLine/download)서 받으실 수 있습니다.
+구버젼은 [여기]({{ site.baseurl }}/{{ page.projname }}/release)서 받으실 수 있습니다.
 
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-x86.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;32bit Binary</a>
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-x64.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;64bit Binary</a>
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-src.zip" class="btn-dark"><i class="fa fa-fw fa-gears"></i>&nbsp;&nbsp;Source</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-bin-x86.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;32bit Binary</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-bin-x64.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;64bit Binary</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-src.zip" class="btn-dark"><i class="fa fa-fw fa-gears"></i>&nbsp;&nbsp;Source</a>
 
 # <i class="fa fa-fw fa-book"></i> 오픈소스 라이센스
 소스 코드는 MIT License 하에 GitHub에 공개되어 있습니다.  
@@ -33,13 +34,13 @@ Windows Vista 이상을 지원합니다.
 
 # <i class="fa fa-fw fa-file-text"></i> 버전별 변경사항
 
-## v1.1
+## v1.1 <small>(Build 20160712)</small>
 - [추가] HiDPI 지원 (System Aware)
 - [변경] 설정 파일 탐색 방법 개선
 - [추가] 알림 없이 실행되는 인자 지원 (-q)
 - [추가] 도움말 실행용 인자 지원 (-h)
 
-## v1.0
+## v1.0 <small>(Build 20160124)</small>
 최초 공개 버젼
 
 - [추가] 충전시 전원 표시줄 숨기기 여부 선택

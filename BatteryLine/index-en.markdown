@@ -1,6 +1,6 @@
 ---
 layout: project
-title: <i class="fa fa-battery-3"></i> BatteryLine
+title: <i class="fa fa-fw fa-battery-3"></i> BatteryLine
 tagline: Show battery status always at screen.
 github: https://github.com/ied206/BatteryLine
 # zipball: https://github.com/ied206/BatteryLine/zipball/master
@@ -18,12 +18,12 @@ Supports Windows Vista or later.
 
 # <i class="fa fa-fw fa-cloud"></i> Download
 Latest version is **v1.1 <small>(Build 20160712)</small>**.  
-You can get old versoin in [here]({{ site.baseurl }}/BatteryLine/download/index-en.html).
+You can get old versoin in [here]({{ site.baseurl }}/{{ page.projname }}/release/index-en.html).
 
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-x86.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;32bit Binary</a>
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-x64.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;64bit Binary</a>
-<a href="{{ site.baseurl }}/BatteryLine/release/v1.1/BatteryLine-v1.1-src.zip" class="btn-dark"><i class="fa fa-fw fa-gears"></i>&nbsp;&nbsp;Source</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-bin-x86.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;32bit Binary</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-bin-x64.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;64bit Binary</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-src.zip" class="btn-dark"><i class="fa fa-fw fa-gears"></i>&nbsp;&nbsp;Source</a>
 
 # <i class="fa fa-fw fa-book"></i> Open Source License
 Source code available in GitHub, licensed under MIT License.  
@@ -33,13 +33,13 @@ Binary distribution of this project is compiled with TDM-GCC-64, which links Min
 
 # <i class="fa fa-fw fa-file-text"></i> ChangeLog
 
-## v1.1
+## v1.1 <small>(Build 20160712)</small>
 - [ADD] Support HiDPI (System Aware)
 - [CHANGE] Search algorithm of ini file is improved
 - [ADD] Support 'quiet' argument (-q)
 - [ADD] Support 'help' argument (-h)
 
-## v1.0
+## v1.0 <small>(Build 20160124)</small>
 Initial release
 
 - [ADD] Show or hide batteryline when charging
