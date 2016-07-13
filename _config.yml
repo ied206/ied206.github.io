@@ -4,7 +4,7 @@ title:
   ko:  넓적부리의 프로젝트
 tagline:
   en: <i class="fa fa-pie-chart"></i> Joveler
-  ko: <i class="fa fa-pie-chart"></i> 넓적부리
+  ko: <i class="fa fa-pie-chart"></i> Joveler
 index:
   en: index-en.html
   ko: index.html
@@ -15,7 +15,7 @@ baseurl:      ""
 author:
   name:
     en: Joveler
-    ko: 넓적부리
+    ko: Joveler
   url:        https://joveler.kr
 
 # Gems
