@@ -2,6 +2,9 @@
   <h1 class="project-name">{{ page.title }}</h1>
   <h2 class="project-tagline">{{ page.tagline }}</h2>
   <a href="{{ site.baseurl }}/" class="btn">Go to Root</a>
+  {% if page.otherbtn != null %}
+    <a href="{{ page.otherbtn-url }}" class="btn">{{ page.otherbtn }}</a>
+  {% endif %}
   {% if page.github != null %}
     <a href="{{ page.github }}" class="btn">View on GitHub</a>
   {% endif %}
