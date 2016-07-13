@@ -9,12 +9,6 @@ div.project {
   background-image: linear-gradient(120deg, #4b99e7, #4be799);
 }
 
-/*
-Header
-background-color: #159957;
-background-image: linear-gradient(120deg, #155799, #159957);
-*/
-
 .project-head-caption {
   color: #ffffff;
   font-size: 1.5em;
