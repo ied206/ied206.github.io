@@ -9,7 +9,7 @@ index:
   en: index-en.html
   ko: index.html
 baseurl:      ""
-paginate:     1
+#paginate:     1
 
 # About/contact
 author:

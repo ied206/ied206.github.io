@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-02-12 17:50:00
+title:  "BatteryLine v1.1 Released"
+date:   2016-07-12 13:50:00 +0900
 categories: main
-lang: ko
+ref:  batteryline-v1.1-release
+lang: en
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
