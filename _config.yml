@@ -1,10 +1,10 @@
 # Setup
 title:
   en: Joveler's Projects
-  ko: 넓적부리의 프로젝트
+  ko:  넓적부리의 프로젝트
 tagline:
-  en: ""
-  ko: ""
+  en: <i class="fa fa-pie-chart"></i> Joveler
+  ko: <i class="fa fa-pie-chart"></i> 넓적부리
 index:
   en: index-en.html
   ko: index.html

@@ -3,4 +3,7 @@
   <h2 class="project-tagline">{{ site.tagline[page.lang] }}</h2>
   <a href="{{ site.baseurl }}" class="btn">Go to Root</a>
   <a href="https://github.com/ied206" class="btn">View on GitHub</a>
+  {% if page.otherbtn != null %}
+    <a href="{{ page.otherbtn-url }}" class="btn">{{ page.otherbtn }}</a>
+  {% endif %}
 </section>
