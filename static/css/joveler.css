@@ -30,45 +30,43 @@ background-image: linear-gradient(120deg, #155799, #159957);
   font-weight: bold;
 }
 
-.btn-black {
+.btn-dark {
   display: inline-block;
   margin-bottom: 1rem;
   color: #FFFFFF;
-  background-color: #404040;
-  border-color: #202020;
+  background-color: #159957;
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
-.btn-black:hover {
+.btn-dark:hover {
   color: #FFFFFF;
   text-decoration: none;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #155799;
 }
-.btn-black + .btn-black {
+.btn-dark + .btn-dark {
   margin-left: 1rem;
 }
 @media screen and (min-width: 64em) {
-  .btn-black {
+  .btn-dark {
     padding: 0.75rem 1rem;
   }
 }
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn-black {
+  .btn-dark {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 42em) {
-  .btn-black {
+  .btn-dark {
     display: block;
     width: 100%;
     padding: 0.75rem;
     font-size: 0.9rem;
   }
-  .btn-black + .btn-black {
+  .btn-dark + .btn-dark {
     margin-top: 1rem;
     margin-left: 0;
   }
