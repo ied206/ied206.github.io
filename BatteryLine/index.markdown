@@ -16,7 +16,7 @@ lang: ko
 Windows Vista 이상을 지원합니다.
 
 # <i class="fa fa-fw fa-cloud"></i> 다운로드
-최신버젼은 **v1.1 <small>(Build 20160712)</small>** 입니다.  
+최신버젼은 **v1.1 (Build 20160712)** 입니다.  
 구버젼은 [여기]({{ site.baseurl }}/{{ page.projname }}/release)서 받으실 수 있습니다.
 
 <a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
@@ -37,6 +37,7 @@ Windows Vista 이상을 지원합니다.
 - [버그수정] 설정 파일 탐색 방법 개선
 - [추가] 알림 없이 실행되는 인자 지원 (-q)
 - [추가] 도움말 실행용 인자 지원 (-h)
+- [변경] 프로그램 실행시 알림을 무음으로 변경
 
 ## v1.0 <small>(Build 20160124)</small>
 최초 공개 버젼

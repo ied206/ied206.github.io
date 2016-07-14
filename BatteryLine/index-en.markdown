@@ -15,7 +15,7 @@ It is especially useful in fullscreen, playing games or watching videos.
 Supports Windows Vista or later.
 
 # <i class="fa fa-fw fa-cloud"></i> Download
-Latest version is **v1.1 <small>(Build 20160712)</small>**.  
+Latest version is **v1.1 (Build 20160712)**.  
 You can get old versoin in [here]({{ site.baseurl }}/{{ page.projname }}/release/index-en.html).
 
 <a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/BatteryLine-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
@@ -36,6 +36,7 @@ Binary distribution of this project is compiled with TDM-GCC-64, which links Min
 - [BUGFIX] Search algorithm of ini file is improved
 - [ADD] Support 'quiet' argument (-q)
 - [ADD] Support 'help' argument (-h)
+- [CHANGE] Notifications no longer produce sound
 
 ## v1.0 <small>(Build 20160124)</small>
 Initial release

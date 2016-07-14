@@ -17,7 +17,7 @@ Windows XP부터 10까지 지원합니다.
 자세한 사항은 GitHub에서 확인하실 수 있습니다.
 
 # <i class="fa fa-fw fa-cloud"></i> 다운로드
-최신버젼은 **v1.0 <small>(Build 20160712)</small>** 입니다.  
+최신버젼은 **v1.0 (Build 20160712)** 입니다.  
 구버젼은 [여기]({{ site.baseurl }}/{{ page.projname }}/release)서 받으실 수 있습니다.
 
 <a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>

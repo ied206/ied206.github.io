@@ -1,26 +1,29 @@
 ---
 layout: post
-title:  "BatteryLine v1.1 Released"
+title:  BatteryLine v1.1 Update
 date:   2016-07-12 13:50:00 +0900
 categories: main
 ref:  batteryline-v1.1-release
 lang: en
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+[BatteryLine]({{ site.baseurl}}/BatteryLine) is updated to v1.1.
 
-Jekyll also offers powerful support for code snippets:
+It does not have new features, but fixed a few bugs and support HiDPI.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## ChangeLog
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+### Provide Installer
+Installer which set BatteryLine to run after booting is now provided.
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+### Support HiDPI
+Most Windows tablet is HiDPI environment, and BatteryLine v1.0 did not support it.  
+v1.1 support System Awareness level of HiDPI.
+
+### Improved Setting file search algorithm
+BatteryLine read its settings from BatteryLine.ini.  
+v1.0 searched ini file from its running curreny directory, as a result it contained some bugs.  
+v1.1 searches ini file in folder which exe file is in, so the bugs are fixed.
+
+### Add argument options
+-q argument which removes notification is added.

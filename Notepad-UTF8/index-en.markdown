@@ -17,7 +17,7 @@ Support Windows XP to 10.
 You can find detail in GitHub.
 
 # <i class="fa fa-fw fa-cloud"></i> Download
-Latest version is **v1.0 <small>(Build 20160712)</small>**.  
+Latest version is **v1.0 (Build 20160712)**.  
 You can get old versoin in [here]({{ site.baseurl }}/{{ page.projname }}/release/index-en.html).
 
 <a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>

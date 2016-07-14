@@ -1,26 +1,29 @@
 ---
 layout: post
-title:  "BatteryLine v1.1가 공개되었습니다"
+title:  "BatteryLine v1.1 업데이트"
 date:   2016-07-12 13:50:00 +0900
 categories: main
 ref:  batteryline-v1.1-release
 lang: ko
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+[BatteryLine]({{ site.baseurl}}/BatteryLine)이 v1.1로 업데이트되었습니다.  
 
-Jekyll also offers powerful support for code snippets:
+v1.0에서 추가된 기능은 없으나. 몇 가지 버그가 패치되었고 HiDPI를 지원합니다.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## 변경사항
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+### 설치프로그램 제공
+Windows 부팅시 BatteryLine가 자동으로 실행되도록 설정해주는 설치프로그램을 제공합니다.
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+### HiDPI 지원
+Windows 태블릿은 대부분 HiDPI 환경이지만 v1.0은 HiDPI를 제대로 지원하지 못했습니다.  
+v1.1은 System Awareness 레벨의 HIDPI를 지원하여 더 이상 흐릿하게 표시되지 않습니다.
+
+### 설정 파일 탐색 방법 개선
+BatteryLine은 설정을 BatteryLine.ini에서 읽습니다.  
+v1.0은 ini 파일을 자신이 실행중인 디렉토리에서 찾았으나, 이 경우 자잘한 문제가 존재합니다.  
+v1.1은 ini 파일을 exe 파일이 있는 폴더 내에서 찾도록 패치하여 버그를 수정하였습니다.
+
+### 인자 옵션 추가
+BatteryLine을 실행할 때 풍선 알림없이 조용히 실행되도록 하는 -q 인자를 추가하였습니다.
