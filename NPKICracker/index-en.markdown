@@ -22,17 +22,17 @@ NPKICracker is written for [Inc0gnito Hacking Conference](http://inc0gnito.com/)
 <a href="http://www.slideshare.net/ied206/4th-inc0gnito" class="btn-dark"><i class="fa fa-fw fa-slideshare"></i>&nbsp;&nbsp;Seminar Slide</a>
 
 # <i class="fa fa-fw fa-check"></i> System Requirement
-NPKICracker is multi-platform application, written with OpenMP.  
+NPKICracker is cross-platform application, written with OpenMP.  
 
 Supports Windows, Linux, and macOS.  
 Tested on Windows and Linux.  
 
 
 # <i class="fa fa-fw fa-cloud"></i> Download
-Latest version is **v1.1 (20160714)**.  
+Latest version is **v1.2 (20160714)**.  
 You can get old versoin in [here]({{ site.baseurl }}/{{ page.projname }}/release/index-en.html).
 
-<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/NPKICracker-v1.0-src.zip" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Download</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.2/NPKICracker-v1.2-src.tar.gz" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Download</a>
 
 # <i class="fa fa-fw fa-book"></i> Open Source License
 Source code available in GitHub, licensed under MIT License.  
@@ -41,7 +41,14 @@ Source code available in GitHub, licensed under MIT License.
 
 # <i class="fa fa-fw fa-file-text"></i> ChangeLog
 
-## v1.0 <small>(Build 20160712)</small>
+## v1.2 <small>(20160614)</small>
+- [BUGFIX] Fixed OpenMP Initialize code
+
+## v1.1 <small>(20151222)</small>
+- [CHANGE] Changed password generation algorithm
+
+## v1.0 <small>(20150830)</small>
 Initial release
 
-- [ADD] specify argument
+- [ADD] yessign NPKI certificate bruteforce support
+- [ADD] OpenMP support

@@ -14,5 +14,11 @@ lang: en
 
 # <i class="fa fa-fw fa-history"></i> All Versions
 
-## v1.0 <small>(20160619)</small>
-[DriverPicker-v1.0-dist.zip]({{ site.baseurl }}/{{ page.projname }}/release/v1.0/DriverPicker-v1.0-dist.zip)
+## v1.2 <small>(20160614)</small>
+[NPKICracker-v1.2-src.tar.gz]({{ site.baseurl }}/{{ page.projname }}/release/v1.2/NPKICracker-v1.2-src.tar.gz)
+
+## v1.1 <small>(20151222)</small>
+[NPKICracker-v1.1-src.tar.gz]({{ site.baseurl }}/{{ page.projname }}/release/v1.1/NPKICracker-v1.1-src.tar.gz)
+
+## v1.0 <small>(20150830)</small>
+[NPKICracker-v1.0-src.tar.gz]({{ site.baseurl }}/{{ page.projname }}/release/v1.0/NPKICracker-v1.0-src.tar.gz)
