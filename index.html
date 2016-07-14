@@ -7,16 +7,6 @@ ref: index
 lang: ko
 ---
 
-<section id="home">
-  <h1>공지</h1>
-  <ul class="posts">
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-      <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
-
 <section id="projects">
   <h1>프로젝트</h1>
   {% assign projects=site.projects | where:"lang", page.lang %}
@@ -29,4 +19,14 @@ lang: ko
       <p>{{ proj.desc }}</p>
     </div>
   {% endfor %}
+</section>
+
+<section id="home">
+  <h1>공지</h1>
+  <ul class="posts">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+      <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </section>
