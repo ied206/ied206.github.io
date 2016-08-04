@@ -12,6 +12,12 @@ lang: ko
 
 # <i class="fa fa-fw fa-history"></i> 모든 버젼
 
+## v1.1 <small>(Build 20160804)</small>
+Installer : [Notepad-UTF8-v1.1-Installer.exe]({{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-Installer.exe)  
+32bit Binary : [Notepad-UTF8-v1.1-x86.zip]({{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-bin-x86.zip)  
+64bit Binary : [Notepad-UTF8-v1.1-x64.zip]({{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-bin-x64.zip)  
+Source : [Notepad-UTF8-v1.1-src.zip]({{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-src.zip)  
+
 ## v1.0 <small>(Build 20160712)</small>
 Installer : [Notepad-UTF8-v1.0-Installer.exe]({{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-Installer.exe)  
 32bit Binary : [Notepad-UTF8-v1.0-x86.zip]({{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-bin-x86.zip)  

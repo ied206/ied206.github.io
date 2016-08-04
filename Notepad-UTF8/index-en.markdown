@@ -17,13 +17,13 @@ Support Windows XP to 10.
 You can find detail in GitHub.
 
 # <i class="fa fa-fw fa-cloud"></i> Download
-Latest version is **v1.0 (Build 20160712)**.  
+Latest version is **v1.1 (Build 20160804)**.  
 You can get old versoin in [here]({{ site.baseurl }}/{{ page.projname }}/release/index-en.html).
 
-<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
-<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-bin-x86.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;32bit Binary</a>
-<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-bin-x64.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;64bit Binary</a>
-<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.0/Notepad-UTF8-v1.0-src.zip" class="btn-dark"><i class="fa fa-fw fa-gears"></i>&nbsp;&nbsp;Source</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-Installer.exe" class="btn-dark"><i class="fa fa-fw fa-archive"></i>&nbsp;&nbsp;Installer</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-bin-x86.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;32bit Binary</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-bin-x64.zip" class="btn-dark"><i class="fa fa-fw fa-tasks"></i>&nbsp;&nbsp;64bit Binary</a>
+<a href="{{ site.baseurl }}/{{ page.projname }}/release/v1.1/Notepad-UTF8-v1.1-src.zip" class="btn-dark"><i class="fa fa-fw fa-gears"></i>&nbsp;&nbsp;Source</a>
 
 # <i class="fa fa-fw fa-book"></i> Open Source License
 Source code available in GitHub, licensed under MIT License.  
@@ -33,6 +33,10 @@ Binary distribution of this project is compiled with TDM-GCC-64, which links Min
 <a href="https://github.com/ied206/Notepad-UTF8/blob/master/LICENSE" class="btn-dark"><i class="fa fa-fw fa-book"></i>&nbsp;&nbsp;License</a>
 
 # <i class="fa fa-fw fa-file-text"></i> ChangeLog
+
+## v1.1 <small>(Build 20160804)</small>
+- [ADD] Add support for Windows 10 Redstone (v1607)
+- [BUGFIX] Stability patch to stop explorer.exe's crash
 
 ## v1.0 <small>(Build 20160712)</small>
 Initial release
